@@ -10,6 +10,12 @@
 #include <stdio.h>
 #include <tchar.h>
 
+//This library and the using std:: code allows the program to accept input and to allow output, and formatting of said output.
 
+#include <iostream>
+
+using std::cout;
+using std::cin;
+using std::endl;
 
 // TODO: reference additional headers your program requires here
