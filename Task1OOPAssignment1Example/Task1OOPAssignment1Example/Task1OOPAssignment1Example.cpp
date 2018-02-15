@@ -4,6 +4,7 @@
 #include "stdafx.h"
 
 #include "Sphere.h" 
+#include "Polymorph.h"
 /*
 The Sphere.h file has been included so tha I can create objecs of this class.
 */
@@ -14,10 +15,11 @@ int main()
 	Sphere_O.calc_Surface_Area(); // This is an instance method as it is being called in the instance of an object.
 	Sphere_O.set_Radius(5.43);
 	cout << "The radius value is: " << Sphere_O.get_Radius();
-	
-
 	Sphere_O.shape_Type();
 	Sphere_O.count_edges = 0;
+
+	Polymorph Polymorph_O;
+	Polymorph_O.Coercion_Breaks_This();
 
     return 0;
 }
